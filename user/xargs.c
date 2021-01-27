@@ -8,12 +8,13 @@ int main(int argc, char *argv[])
     char buf[1024], *p, c;
     char whitespace[] = " \t\r\n\v";
     int i, t;
-    for (i = 1; i < argc; i++)
-    {
-        args[i - 1] = argv[i];
-    }
+
     for (;;)
     {
+        for (i = 1; i < argc; i++)
+        {
+            args[i - 1] = argv[i];
+        }
         memset(buf, 0, sizeof buf);
         p = buf;
         for (i = argc - 1; i < MAXARGS; i++)
