@@ -1,0 +1,5 @@
+1.  a0-a7 (x10-x17)   reg a2 hold 13
+2.  0x26 call f (calc f by compiler)
+    0x14 call g (call function g as inline function)
+4.  0x650
+5.  0x38
