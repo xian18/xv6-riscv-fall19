@@ -1,5 +1,5 @@
 完成了本实验中选做以外的部分。(因为2020的实验包下载不下来。。就做了19年的。
-实验题目在 [mit-6.828/6.S081](https://pdos.csail.mit.edu/6.828/2019/labs/)
+实验题目在 https://pdos.csail.mit.edu/6.828/2019/
 
 xv6 is a re-implementation of Dennis Ritchie's and Ken Thompson's Unix
 Version 6 (v6).  xv6 loosely follows the structure and style of v6,
